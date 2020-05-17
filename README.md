@@ -13,3 +13,16 @@ Foi desenvolvida como estudo de testes no NodeJS aplicando TDD com Jest .
 - Sequelize;
 - JWT;
 - BCrypt;
+- Postgres;
+
+## Ambiente de DEV
+
+__Rodar os comandos abaixo (Utilizar o Postgres):__
+
+Criar o banco de dados
+
+```npx sequelize db:create```
+
+Criar as tabelas no banco
+
+```npx sequelize db:migrate```

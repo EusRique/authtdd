@@ -26,3 +26,9 @@ Criar o banco de dados
 Criar as tabelas no banco
 
 ```npx sequelize db:migrate```
+
+## Rodar os testes 
+
+Executar o comando
+
+```npm test```
